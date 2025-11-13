@@ -121,7 +121,7 @@ main {
 }
 
 .card p {
-  font-size: 0.95rem;
+  font-size: 0.99rem;
   color: #b5b5b5;
   margin-bottom: 1.5rem;
 }
@@ -265,4 +265,10 @@ input[type="number"]::-ms-clear {
 
 .api-list {
   background-color: #0099ff;
+}
+.card .punch {
+  font-size: 1.1rem;
+  color: #ff3535;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 8px #ff0000;
 }
