@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #232323, #010a22);
+  background: linear-gradient(135deg, #232323, #170122);
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -19,7 +19,7 @@ header {
   position: fixed;
   z-index: 10;
   height: 6.3%;
-  background: rgba(0, 22, 57, 0.74);
+  background: rgba(57, 0, 51, 0.74);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,7 @@ header {
 header h1 {
   font-size: 1.7rem;
   font-weight: 700;
-  background: linear-gradient(90deg, #0099ff, #a6dddb);
+  background: linear-gradient(90deg, #f200ff, #f4d2f6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: 1px;
@@ -48,8 +48,8 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #0099ff;
-  text-shadow: 0 0 8px #0099ff;
+  color: #ee00ff;
+  text-shadow: 0 0 8px #d900ff;
 }
 
 main {
@@ -87,7 +87,7 @@ main {
   background: rgba(255, 255, 255, 0.05);
   padding: 1.5rem;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.1);
+  box-shadow: 0 0 15px rgba(208, 0, 255, 0.1);
   transition: 0.3s ease;
   position: relative;
   text-decoration: none;
@@ -97,14 +97,14 @@ main {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 0 20px rgba(157, 0, 255, 0.4);
   background: rgba(255, 255, 255, 0.08);
 }
 
 .card-icon {
-  background: rgba(0, 123, 255, 0.4);
-  border: 1px solid rgba(0, 123, 255, 0.4);
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
+  background: rgba(179, 0, 255, 0.4);
+  border: 1px solid rgba(212, 0, 255, 0.4);
+  box-shadow: 0 0 15px rgba(174, 0, 255, 0.4);
   width: 60px;
   height: 60px;
   border-radius: 12px;
@@ -135,9 +135,9 @@ main {
 }
 
 .open {
-  background: rgba(0, 123, 255, 0.15);
-  color: #339cff;
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  background: rgba(174, 0, 255, 0.15);
+  color: #c933ff;
+  box-shadow: 0 0 10px rgba(187, 0, 255, 0.3);
 }
 
 form {
@@ -147,7 +147,7 @@ form {
   background: rgba(255, 255, 255, 0.073);
   padding: 2rem;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.34);
+  box-shadow: 0 0 15px rgba(204, 0, 255, 0.34);
   border: 1px solid rgba(255, 255, 255, 0.05);
   margin-bottom: 2rem;
 }
@@ -164,8 +164,8 @@ form input, form textarea, form select {
 }
 
 form input:focus, form textarea:focus, form select:focus {
-  border-color: #007bff;
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  border-color: #9900ff;
+  box-shadow: 0 0 10px rgba(230, 0, 255, 0.3);
 }
 
 form textarea {
@@ -174,7 +174,7 @@ form textarea {
 }
 
 form button {
-  background: #007bff;
+  background: #ff00ff;
   color: #fff;
   border: none;
   padding: 0.8rem;
@@ -183,12 +183,12 @@ form button {
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
+  box-shadow: 0 0 15px rgba(195, 0, 255, 0.5);
 }
 
 form button:hover {
-  background: #005fcc;
-  box-shadow: 0 0 25px rgba(0, 123, 255, 0.7);
+  background: #8100cc;
+  box-shadow: 0 0 25px rgba(166, 0, 255, 0.7);
   transform: scale(1.03);
 }
 
@@ -218,7 +218,7 @@ input[type="number"]::-ms-clear {
   background: rgba(255, 255, 255, 0.05);
   padding: 1.5rem;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.1);
+  box-shadow: 0 0 15px rgba(234, 0, 255, 0.1);
   transition: 0.3s ease;
   position: relative;
   text-decoration: none;
@@ -228,14 +228,14 @@ input[type="number"]::-ms-clear {
 
 .Developer:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(0, 123, 255, 0.4);
+  box-shadow: 0 0 20px rgba(170, 0, 255, 0.4);
   background: rgba(255, 255, 255, 0.08);
 }
 
 .Developer-icon {
-  background: rgba(0, 123, 255, 0.4);
-  border: 1px solid rgba(0, 123, 255, 0.4);
-  box-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
+  background: rgba(174, 0, 255, 0.4);
+  border: 1px solid rgba(195, 0, 255, 0.4);
+  box-shadow: 0 0 15px rgba(204, 0, 255, 0.4);
   width: 60px;
   height: 60px;
   border-radius: 12px;
@@ -264,7 +264,7 @@ input[type="number"]::-ms-clear {
 
 
 .api-list {
-  background-color: #0099ff;
+  background-color: #bf00ff;
 }
 .card .punch {
   font-size: 1.1rem;
