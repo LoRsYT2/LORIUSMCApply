@@ -3,54 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LORIUSMC - Staff Application</title>
+    <title>EGOMC - Staff Application</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>LORIUSMC</h1>
+      <h1>EGOMC</h1>
       <nav>
         <a href="index.html">Home</a>
         <a href="https://discord.gg/fejskCxXta" target="_blank">Discord</a>
       </nav>
     </header>
+
     <main>
       <h2 class="section-title">Staff Application</h2>
+
       <p class="section-title2">
-        يرجى الإجابة على الأسئلة التالية إذا كنت ترغب في الانضمام إلى إدارة
-        "لورس إم سي"! عند تقديم طلبك، سيقوم مسؤول الإدارة بمراجعته وتحديد ما
-        إذا كنت مناسبًا للوظيفة.<br />
-        بمجرد التأكد من ملاءمتك، ستصلك رسالة عبر الديسكورد. وفي حال تم رفض طلبك،
-        يجب عليك الانتظار لمدة 20 يومًا قبل التقديم مرة أخرى.
-      </p>
-      <p class="section-title2">المتطلبات:</p>
-      <p class="section-title2">
-        - يجب أن يكون عمرك 14 عامًا أو أكثر. <br />
-        - يجب أن تمتلك بريدًا إلكترونيًا صالحًا وآمنًا. <br />
-        - يجب أن يكون لديك ما لا يقل عن 5 ساعات من وقت اللعب أسبوعيًا. <br />
-        - يجب أن تكون عضوًا في سيرفر ماينكرافت "لورس إم سي" لمدة أسبوع على الأقل.
+        Please answer the following questions if you would like to join the
+        EGOMC staff team. Once you submit your application, a staff manager
+        will review it and decide whether you are suitable for the position.
         <br />
-        - يجب أن تكون عضوًا في سيرفر "لورس إم سي" الديسكورد الخاص بنا لمدة لا
-        تقل عن أسبوعين. <br />
-        - يجب أن يكون لديك مايكروفون. <br />
-        - يجب أن تتمتع بالقدرة على تصوير فيديوهات بجودة عالية، حيث ستحتاج إلى
-        تسجيل أدلة تثبت نشاط اللاعبين. <br />
-        - الخبرة السابقة في مجال إدارة سيرفرات ماينكرافت ليست ضرورية، لكنها
-        مرغوبة. <br />
-        - أي إجابة أو تقديم يتم إنشاؤه بواسطة الذكاء الاصطناعي سيؤدي إلى الرفض
-        وربما إضافتك إلى القائمة السوداء.
+        If you are accepted, you will receive a message via Discord. If your
+        application is rejected, you must wait 20 days before applying again.
       </p>
+
+      <p class="section-title2">Requirements:</p>
+
       <p class="section-title2">
-        تنبيه: <br />
-        عند كتابة طلب التقديم، يرجى عدم إرفاق أي معلومات شخصية مثل:
+        - You must be 14 years old or older. <br />
+        - You must have a valid and secure email. <br />
+        - You must have at least 5 hours of playtime per week. <br />
+        - You must be a member of the EGOMC Minecraft server for at least one week.
+        <br />
+        - You must be a member of our EGOMC Discord server for at least two weeks.
+        <br />
+        - You must have a microphone. <br />
+        - You must be able to record high-quality videos, as you will need to record
+        evidence of player activity. <br />
+        - Previous staff experience is not required but is preferred. <br />
+        - Any application generated using AI will result in rejection and may
+        lead to a blacklist.
       </p>
+
       <p class="section-title2">
-        - رقم الهاتف (يكفي أن يكون لديك هاتف يعمل دون الحاجة إلى ذكر رقمك). <br />
-        - بريدك الإلكتروني. <br />
-        - عنوانك السكني.
+        Notice: <br />
+        When writing your application, please do not include personal information such as:
       </p>
+
+      <p class="section-title2">
+        - Phone number (it is enough that you have a working phone). <br />
+        - Your email address. <br />
+        - Your home address.
+      </p>
+
       <form id="staffForm">
-        <label for="name">ما اسمك داخل ماين كرافت؟</label>
+        <label for="name">What is your Minecraft username?</label>
         <input
           type="text"
           name="username"
@@ -58,9 +65,10 @@
           placeholder="Your IGN"
           required
         />
-        <label for="disname"
-          >ما اسمك في ديسكورد؟ (مثال: lorsdev أو lorsdev#0990)</label
-        >
+
+        <label for="disname">
+          What is your Discord username? (Example: ilorss or ilorss#0990)
+        </label>
         <input
           type="text"
           name="discord"
@@ -68,7 +76,8 @@
           placeholder="Your Discord username"
           required
         />
-        <label for="age">كم عمرك؟</label>
+
+        <label for="age">How old are you?</label>
         <input
           type="number"
           id="age"
@@ -76,9 +85,10 @@
           placeholder="Your Age"
           required
         />
-        <label for="mic*rec"
-          >هل يمكنك تسجيل مقاطع فيديو؟ وهل لديك مايكروفون؟</label
-        >
+
+        <label for="mic*rec">
+          Can you record videos? And do you have a microphone?
+        </label>
         <input
           type="text"
           id="mic*rec"
@@ -86,7 +96,10 @@
           placeholder="Yes or No"
           required
         />
-        <label for="text1">في أي دولة تعيش؟ وما هو توقيتك الزمني؟</label>
+
+        <label for="text1">
+          Which country do you live in? What is your timezone?
+        </label>
         <input
           type="text"
           id="text1"
@@ -94,7 +107,8 @@
           placeholder="Your country & timezone"
           required
         />
-        <label for="text2">ما اللغات التي تتحدث بها؟</label>
+
+        <label for="text2">What languages do you speak?</label>
         <input
           type="text"
           id="text2"
@@ -102,81 +116,108 @@
           placeholder="English, Arabic, French, etc..."
           required
         />
-        <label for="text3"
-          >صف تجربتك السابقة إذا كنت قد شغلت منصبًا إداريًا من قبل.</label
-        >
+
+        <label for="text3">
+          Describe your previous experience if you have held a staff position before.
+        </label>
         <textarea
           name="about1"
           id="text3"
           placeholder="Example: Moderator @ Server-Name (1 Year)"
           required
         ></textarea>
-        <label for="text4">منذ متى وأنت تلعب في السيرفر؟ وكيف هو مستوى تفاعلك؟</label>
+
+        <label for="text4">
+          How long have you been playing on the server? How active are you?
+        </label>
         <input type="text" name="about2" id="text4" required />
-        <label for="text5">ماذا تعني لك الإدارة؟</label>
+
+        <label for="text5">What does being staff mean to you?</label>
         <textarea
           name="about3"
           id="text5"
           placeholder="Being a staff member means ..."
           required
         ></textarea>
-        <label for="text6">لماذا يجب أن نختارك من بين جميع المتقدمين؟</label>
+
+        <label for="text6">
+          Why should we choose you over all other applicants?
+        </label>
         <textarea
           name="about4"
           id="text6"
           placeholder="I believe that you should choose me because..."
           required
         ></textarea>
-        <label for="text7">ما رأيك في نظام الإدارة أو في الإداريين الحاليين؟</label>
+
+        <label for="text7">
+          What do you think about the current staff team or staff system?
+        </label>
         <textarea name="about5" id="text7" required></textarea>
-        <label for="text8">اكتب عن خبرتك وتجربتك السابقة كإداري في سيرفر آخر.</label>
+
+        <label for="text8">
+          Write about your previous staff experience on another server.
+        </label>
         <textarea name="about6" id="text8" required></textarea>
 
-        <h2 class="section-title">أسئلة السيناريو</h2>
-        <label for="text9">إذا رأيت شخصًا يطلق عبارات عنصرية، كيف ستتعامل معه؟</label>
+        <h2 class="section-title">Scenario Questions</h2>
+
+        <label for="text9">
+          If you see someone using racist language, how would you handle it?
+        </label>
         <input type="text9" name="q1" id="text9" required />
-        <label for="text10"
-          >إذا وجدت شخصًا يسب أو يستخدم ألفاظًا غير لائقة، كيف ستتصرف؟</label
-        >
+
+        <label for="text10">
+          If you find someone swearing or using inappropriate language, what will you do?
+        </label>
         <textarea type="text10" name="q2" id="text10" required></textarea>
-        <label for="text11"
-          >إذا قال أحد اللاعبين "سأهاجم هذا السيرفر"، كيف ستتعامل معه؟</label
-        >
+
+        <label for="text11">
+          If a player says “I will attack this server”, how will you deal with them?
+        </label>
         <textarea type="text11" name="q3" id="text11" required></textarea>
-        <label for="text12"
-          >إذا كان أحد اللاعبين يستخدم برنامج غش، كيف ستتصرف؟</label
-        >
+
+        <label for="text12">
+          If a player is using cheats, what will you do?
+        </label>
         <input type="text12" name="q4" id="text12" required />
-        <label for="text13"
-          >قام أحد اللاعبين بنشر رابط ضار أو غير واضح في المحادثة، كيف ستتصرف؟</label
-        >
+
+        <label for="text13">
+          A player posted a suspicious or harmful link in chat. What will you do?
+        </label>
         <textarea type="text13" name="q5" id="text13" required></textarea>
-        <label for="text14"
-          >أسماء الألقاب غير اللائقة يعاقب عليها، فما المدة المناسبة للعقوبة؟</label
-        >
+
+        <label for="text14">
+          Inappropriate nicknames are punishable. What punishment duration is appropriate?
+        </label>
         <textarea type="text14" name="q6" id="text14" required></textarea>
-        <label for="text15"
-          >إذا لم يستلم أحد اللاعبين رتبته التي اشتراها، كيف ستساعده؟</label
-        >
+
+        <label for="text15">
+          If a player did not receive the rank they purchased, how would you help them?
+        </label>
         <textarea type="text15" name="q7" id="text15" required></textarea>
-        <label for="text16"
-          >لاحظت أن أحد اللاعبين يستغل ثغرة لتكرار العناصر (غلِتش)، كيف ستتعامل
-          معه؟</label
-        >
+
+        <label for="text16">
+          You notice a player abusing a duplication glitch. How will you deal with them?
+        </label>
         <input type="text16" name="q8" id="text16" required />
-        <label for="text18"
-          >كيف ستتعامل مع لاعب يبني أشياء غير لائقة داخل السيرفر؟</label
-        >
+
+        <label for="text18">
+          How would you deal with a player building inappropriate structures?
+        </label>
         <input type="text18" name="q9" id="text18" required />
-        <label for="text19"
-          >إذا لاحظت أن أحد الإداريين يستغل صلاحياته، هل ستتصرف؟ وإذا كنت ستتصرف،
-          فكيف ستتعامل مع الموقف؟</label
-        >
+
+        <label for="text19">
+          If you notice a staff member abusing their permissions, would you act? How would you handle it?
+        </label>
         <textarea type="text19" name="q10" id="text19" required></textarea>
+
         <button type="submit">Submit</button>
       </form>
     </main>
-    <footer>© 2025 LORIUSMC Network</footer>
+
+    <footer>© 2025 EGOMC Network</footer>
+
     <script src="server.js"></script>
     <script src="app.js"></script>
     <script>
@@ -184,4 +225,3 @@
     </script>
   </body>
 </html>
-
