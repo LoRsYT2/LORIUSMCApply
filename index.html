@@ -3,45 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EGOMC - Applications</title>
+  <title>NoMercy - Applications Center</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- الهيدر العصري المضيء -->
   <header>
-    <h1>EGOMC</h1>
+    <h1>NoMercy</h1>
     <nav>
-      <a href="./rules.html" target="_blank">Rules</a>
+      <a href="./rules.html" target="_blank" data-i18n="nav_rules">Rules</a>
       <a href="https://discord.gg/fejskCxXta" target="_blank">Discord</a>
+      <!-- زر لغة العربية بيتحقن هنا تلقائياً عبر الجافا سكريبت -->
     </nav>
   </header>
+
+  <!-- القسم الأساسي -->
   <main>
-    <h2 class="section-title">Available Applications</h2>
+    <div class="hero-section">
+      <h2 class="section-title" data-i18n="title_apps">Available Applications</h2>
+      <p class="section-title3" data-i18n="staff_desc">Select an application category below to join our network team or become an official media partner.</p>
+    </div>
+
+    <!-- شبكة التقديمات -->
     <div class="cards">
+      
+      <!-- بطاقة الإدارة -->
       <a href="staff.html" class="card">
-        <div class="card-icon">📄</div>
-        <h2>Staff Application</h2>
-        <p>Apply to join the EGOMC Staff Team and help manage the community.</p>
-        <span class="status open">Open</span>
+        <div class="card-icon">🛡️</div>
+        <h2 data-i18n="staff_title">Staff Application</h2>
+        <p data-i18n="staff_desc">Apply to join the Staff Team and help manage our growing community.</p>
+        <span class="status open" data-i18n="status_open">Open</span>
       </a>
+
+      <!-- بطاقة الميديا -->
       <a href="media.html" class="card">
-        <div class="card-icon">📄</div>
-        <h2>Media Application</h2>
-        <p>Are you a YouTuber or TIKTOKER? Apply to become a EGOMC Media Partner.</p>
-        <span class="status open">Open</span>
+        <div class="card-icon">🎬</div>
+        <h2 data-i18n="media_title">Media Application</h2>
+        <p data-i18n="media_desc">Are you a YouTuber or TikToker? Apply to become an official Media Partner.</p>
+        <span class="status open" data-i18n="status_open">Open</span>
       </a>
-      <a class="Developer">
-        <div class="Developer-icon">📄</div>
-        <h2>Developer Application</h2>
-        <p>Join our Developer Team to create amazing features for the server.</p>
-        <span class="status open2">Not Complete</span>
-      <a href="rules.html" class="card">
-        <div class="card-icon">📄</div>
-        <h2>Rules</h2>
-        <p>You must read all the rules written here to avoid consequences.</p>
-        <span class="status open">Open</span>
-      </a>
+
+      <!-- بطاقة المطور (مغلقة بشكل فخم) -->
+      <div class="Developer">
+        <div class="Developer-icon">💻</div>
+        <h2 data-i18n="dev_title">Developer Application</h2>
+        <p data-i18n="dev_desc">Join our Development Team to build and configure amazing new features.</p>
+        <span class="status closed" data-i18n="status_closed">Closed</span>
+      </div>
+
     </div>
   </main>
-  <footer>© 2026 EGOMC Network • All Rights Reserved</footer>
+
+  <!-- الفوتر السيبراني -->
+  <footer data-i18n="footer_text">© 2026 NoMercy Network • All Rights Reserved</footer>
+
+  <!-- استدعاء ملف المحرك -->
+  <script src="app.js"></script>
 </body>
 </html>
